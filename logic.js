@@ -71,7 +71,6 @@ var myMap = L.map("map", {
           depths = [-10, 10, 30, 50, 70, 90],
           colors = ["#a3f600", "#dcf400", "#f7db11", "#fdb72a", "#fca35d", "#ff5f65"];
   
-      // Loop through depth intervals and generate a label with a colored square for each interval
       for (var i = 0; i < depths.length; i++) {
         div.innerHTML +=
           "<i style='background: " + colors[i] + "'></i> " +
